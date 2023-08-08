@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>college website design</title>
+    <link rel="stylesheet" href="style.css" type="text/css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,200&display=swap" rel="stylesheet">
+<style>
+    *{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    
+    background-image: linear-gradient(to right,
+              rgba(219, 217, 55, 0.896),
+              rgba(229, 185, 90, 0.75)), url(
+'https://www.pagalguy.com/wp-content/uploads/2018/10/8047C9E5B58097E7.jpg');
+  height: 800px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+nav{
+    text-align: center;
+    justify-content: flex-start;
+}
+nav img{
+    width: 350px;
+    height: 150px;
+    align-content:right;
+
+}
+
+.nav-links ul li{
+    list-style: none;
+    display:inline-block ;
+    padding: 8px 12px ;
+    position: relative;
+
+}
+.nav-links ul li a{
+    color: rgb(59, 127, 163);
+    text-decoration: none;
+    font-size: 13px;
+    font-size: large;
+
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box p{
+    margin:10px 0 40px;
+    font-size: 14px;
+    color:#fff;
+
+}
+.text-box h1{
+    font-size: 62px;
+}
+</style>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <img src="https://4.bp.blogspot.com/-l-EkHVZ_pio/WZ7qMZ9BR7I/AAAAAAAAmkg/dUDVR7Z5HcMV3fjvGwULMRP-9Ve-IqQTgCLcBGAs/s1600/BIT-Mesra.png"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="home.html">HOME</a> </li> 
+                        <li><a href="home.html">ACADEMICS</a> </li>
+                        <li><a href="home.html">ADMISSION</a> </li>
+                        <li><a href="home.html">GALLERY</a> </li>
+                        <li><a href="home.html">DESCRIPTION</a> </li>
+
+                    </ul>
+                </div>
+            
+        </nav>
+        <div class="text-box"></div>
+        <h2>BIT Lalpur</h2>
+        <p>With a vision to inspire young minds and professionals, BIT Lalpur Campus Ranchi, was started initially with part-time<br>
+             courses in 1998. Currently, Master of Business Administration (MBA), Master of Computer Application (MCA),<br>
+              Bachelor of Business Administration (BBA), Bachelor of Computer Application (BCA) programs,  and Ph.D.<br>
+                are being offered by the institute.<br>
+
+        </p>
+        <a href="">VISIT US TO KNOW MORE</a>
+
+    </section>
+
+    
+</body>
+</html>
